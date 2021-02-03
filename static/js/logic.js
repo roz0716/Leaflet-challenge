@@ -20,18 +20,27 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-// An array containing each city's name and location
+// An array containing each city's name, location, and icon
 var cities = [{
   location: [-155.891830444336,19.4553337097168],
   name: "Hawaii",
+  icon: "ion-settings",
+  iconColor: "black",
+  shape:"penta"
 },
 {
   location: [-117.974,35.9803333,3],
   name: "California",
+  icon: "ion-settings",
+  iconColor: "black",
+  shape:"penta"
 },
 {
   location: [-140.6165,60.0686,9.8],
   name: "Alaska",
+  icon: "ion-settings",
+  iconColor: "black",
+  shape:"penta"
 }
 ];
 
